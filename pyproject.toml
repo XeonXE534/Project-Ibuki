@@ -14,7 +14,7 @@ dependencies = [
     "textual>=0.45.0",
     "anipy-api",
     "anipy-cli",
-    "levenshtein==0.26.1"
+    "pyaml"
 ]
 
 [project.optional-dependencies]
