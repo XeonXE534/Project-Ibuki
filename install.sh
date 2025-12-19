@@ -96,14 +96,14 @@ if ! command -v pipx &>/dev/null; then
 fi
 
 info "Upgrading pipx..."
-pipx upgrade pipx >/dev/null 2>&1 &
+pip upgrade pipx >/dev/null 2>&1 &
 spinner $! "Upgrading pipx"
 
 cd "$IBUKI_DIR"
 
 if pipx list | grep -q 'ibuki'; then
   info "Ibuki detected, upgrading..."
-  pipx upgrade ibuki >/dev/null 2>&1 &
+  pipx install . --force >/dev/null 2>&1 &
   spinner $! "Upgrading Ibuki"
   success "Ibuki upgraded!"
 else

@@ -1,8 +1,8 @@
 <div align="center">
     <img src="images/halo.png" alt="logo" />
     <br>
-    <img src="https://img.shields.io/badge/version-3.3.0-blue" />
-    <img src="https://img.shields.io/github/license/XeonXE534/Project-Ibuki" />
+    <img src="https://img.shields.io/badge/version-3.3.1-FF69B4?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/license-GPL--3.0-green?style=for-the-badge"/>
 </div>
 <br>
 
